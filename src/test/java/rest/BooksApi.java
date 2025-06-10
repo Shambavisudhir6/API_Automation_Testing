@@ -35,5 +35,7 @@ public class BooksApi {
                 then().log().all().assertThat().statusCode(200)
                 .extract().asString();
 
+        System.out.println(name);
+
     }
 }
